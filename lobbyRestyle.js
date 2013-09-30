@@ -5,8 +5,8 @@ $('body').append(
 $('#create-room-button').html('CREATE ROOM');
 $('.overlay-header-line').remove();
 $('#button-lobby').on('click', function(){
-	$('#room-view').css('-webkit-filter', 'blur(60px)');
-	$('#background').css('-webkit-filter', 'blur(60px)');
+	$('#room-view').css('-webkit-filter', 'blur(40px)');
+	$('#background').css('-webkit-filter', 'blur(40px)');
 });
 $('.overlay-close-button').on('click', function(){
 	$('#room-view').css('-webkit-filter', 'blur(0px)');
