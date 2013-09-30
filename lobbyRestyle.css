@@ -1,0 +1,74 @@
+#lobby-overlay {
+	box-shadow: 0 0 48px 4px #000;
+	border: 1px solid #272727;
+	background: rgba(0, 0, 0, 0.35);
+	background-image: none;
+	font-family: Segoe UI Light !important;
+}
+#lobby-overlay .overlay-header {
+	background-color: none;
+	background-image: none;
+}
+#lobby-overlay .overlay-title {
+	font-size: 23px;
+	top: 11px;
+	left: 15px;
+}
+#lobby-search {
+	background: #ECF0F1;
+	height: 28px;
+	top: 12px;
+	background-image: none;
+}
+#lobby-search .search-input {
+	top: 4px;
+	color: #95A5A6;
+}
+#create-room-button {
+	top: 15px;
+	width: 130px;
+	height: 28px;
+	font-size: 18px;
+	text-align: center;
+	background: #95A5A6;
+	background-image: none;
+}
+#lobby-panel {
+	background-image: none;
+}
+#lobby-panel-list {
+	font-size: 11px;
+}
+.room-list {
+	border: none;
+	background: none;
+}
+.room-list-item {
+	height: 79px;
+	background: rgba(153, 153, 153, 0.22);
+}
+.room-population {
+	color:  #FFF;
+}
+.room-name {
+	color: #5BC0F0;
+}
+.room-hosted-by {
+	color: #A8A8A8;
+	font-size: 11px;
+}
+.room-host-name {
+	color: #5BC0F0;
+	font-size: 12px;
+}
+.room-now-playing {
+	color: #FFF;
+	top: 29px;
+}
+.room-media {
+	top: 29px;
+	color: #A8A8A8;
+}
+.room-djs {
+	color: #A8A8A8;
+}
