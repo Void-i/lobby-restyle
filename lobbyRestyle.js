@@ -1,6 +1,6 @@
 $('body').append(
 	$('<div />', { id: 'background' }),
-	$('<link />', { type: 'text/css', rel: 'stylesheet', href: 'https://dl.dropboxusercontent.com/s/skncdoz95uywhwl/lobbyRestyle.css' }),
+	$('<link />', { type: 'text/css', rel: 'stylesheet', href: 'https://dl.dropboxusercontent.com/s/skncdoz95uywhwl/lobbyRestyle.css' })
 );
 $('#create-room-button').html('CREATE ROOM');
 $('.overlay-header-line').remove();
