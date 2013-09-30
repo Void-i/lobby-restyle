@@ -1,3 +1,7 @@
+body {
+	background: #000;
+	background-image: ;
+}
 #lobby-overlay {
 	box-shadow: 0 0 48px 4px #000;
 	border: 1px solid #272727;
@@ -5,27 +9,28 @@
 	background-image: none;
 	font-family: Segoe UI Light !important;
 }
-#lobby-overlay .overlay-header {
-	background-color: none;
+.overlay-header {
 	background-image: none;
+	background-color: rgba(0, 0, 0, 0.0);
 }
-#lobby-overlay .overlay-title {
+.overlay-title {
 	font-size: 23px;
 	top: 11px;
-	left: 15px;
+	left: 10px;
+	font-family: Segoe UI Light;
 }
 #lobby-search {
 	background: #ECF0F1;
 	height: 28px;
-	top: 12px;
+	top: 16px;
 	background-image: none;
 }
-#lobby-search .search-input {
+#lobby-search .search-input input {
 	top: 4px;
 	color: #95A5A6;
 }
 #create-room-button {
-	top: 15px;
+	top: 16px;
 	width: 130px;
 	height: 28px;
 	font-size: 18px;
@@ -38,13 +43,18 @@
 }
 #lobby-panel-list {
 	font-size: 11px;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+#lobby-panel-list ul {
+	font-size: 11px;
+	background-color: rgba(0, 0, 0, 0.0);
 }
 .room-list {
 	border: none;
 	background: none;
 }
 .room-list-item {
-	height: 79px;
+	height: 88px !important;
 	background: rgba(153, 153, 153, 0.22);
 }
 .room-population {
@@ -71,4 +81,13 @@
 }
 .room-djs {
 	color: #A8A8A8;
+}
+#background {
+	background: url(http://plug.dj/_/static/images/room_background1.91844df.jpg) no-repeat;
+	background-position: -95px 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
 }
